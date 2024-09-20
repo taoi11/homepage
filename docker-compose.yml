@@ -1,0 +1,9 @@
+name: homepage
+services:
+  homepage:
+    image: ghcr.io/gethomepage/homepage:latest
+    container_name: homepage
+    ports:
+      - 100.124.155.97:81:3000
+    volumes:
+      - ./config:/app/config
