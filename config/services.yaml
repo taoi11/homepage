@@ -1,7 +1,4 @@
 ---
 - Media:
-  - Jellyfin:
-    icon: si-XX-#00A4DC
-    href: http://unraid.bun-delta.ts.net:8096
-  - Jellyserr:
-    href: http://unraid.bun-delta.ts.net:5055
+    - Jellyfin:
+        href: http://unraid.bun-delta.ts.net:8096
