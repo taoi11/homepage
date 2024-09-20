@@ -19,9 +19,9 @@
     - Portainer:
         href: https://cloud-main.bun-delta.ts.net:9443
 - Others:
-    Lube Logger:
+    - Lube Logger:
         href: http://nix-fish.bun-delta.ts.net:8080/
-    Open Web UI:
+    - Open Web UI:    
         href: http://unraid.bun-delta.ts.net:8081
-    unraid:
+    - unraid:
         href: http://unraid.bun-delta.ts.net
