@@ -3,9 +3,6 @@
   - Jellyfin:
     icon: si-XX-#00A4DC
     href: http://unraid.bun-delta.ts.net:8096
-    widget:
-      type: Jellyfin
-      url: http://unraid.bun-delta.ts.net:8096/health
   - Jellyserr:
     href: http://unraid.bun-delta.ts.net:5055
   - Tansmission:
