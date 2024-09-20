@@ -1,5 +1,5 @@
 ---
-- infrastructure:
+- Infrastructure:
   - Tailscale:
     - abbr: TS
       href: https://login.tailscale.com/admin/machines
