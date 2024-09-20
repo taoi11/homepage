@@ -2,3 +2,24 @@
 - Media:
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
+    - Jellyserr:
+        href: http://unraid.bun-delta.ts.net:5055
+    - Tansmission:
+        href: http://unraid.bun-delta.ts.net:9091
+    - Prowlarr:
+        href: http://unraid.bun-delta.ts.net:9696
+    - Radarr:
+        href: http://unraid.bun-delta.ts.net:7878
+    - Sonarr:
+        href: http://unraid.bun-delta.ts.net:8989
+    - BitMagnet:
+        href: http://nix-fish.bun-delta.ts.net:3333
+- Cloud Main:
+    - Portainer:
+        href: https://cloud-main.bun-delta.ts.net:9443
+- Others:
+    - Lube Logger:
+        href: http://nix-fish.bun-delta.ts.net:8080/
+    - Open Web UI:
+        href: http://unraid.bun-delta.ts.net:8081
+    - 
