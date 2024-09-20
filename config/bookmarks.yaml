@@ -9,3 +9,6 @@
   - unraid:
     - abbr: UNR
       href: http://unraid.bun-delta.ts.net
+  - iLO:
+    - abbr: iLO
+    href: https://10.1.1.11/
