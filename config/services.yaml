@@ -1,4 +1,9 @@
 ---
+- Media:
+    - Jellyfin:
+        href: http://unraid.bun-delta.ts.net:8096
+    - Jellyserr:
+        href: http://unraid.bun-delta.ts.net:5055
 - Cloud Main:
     - Portainer:
-        href: https://cloud-main.bun-delta.ts.net:9443/
+        href: https://cloud-main.bun-delta.ts.net:9443
