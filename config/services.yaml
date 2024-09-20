@@ -1,7 +1,7 @@
 ---
 - Media:
     - Jellyfin:
-        icon: https://jellyfin.org/images/logo.svg
+        icon: si-#00A4DC
         href: http://unraid.bun-delta.ts.net:8096
     - Jellyserr:
         href: http://unraid.bun-delta.ts.net:5055
