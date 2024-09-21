@@ -2,8 +2,10 @@
 - Media:
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
+        ping: https://media.luffy.casa
     - Jellyserr:
         href: http://unraid.bun-delta.ts.net:5055
+        ping: https://request.luffy.casa
     - Tansmission:
         href: http://unraid.bun-delta.ts.net:9091
     - Prowlarr:
