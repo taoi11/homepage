@@ -2,7 +2,7 @@
 - Media:
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
-        ping: https://unraid.bun-delta.ts.net:8096/health
+        ping: https://media.luffy.casa/health
     - Jellyserr:
         href: http://unraid.bun-delta.ts.net:5055
     - Tansmission:
