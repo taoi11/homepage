@@ -24,6 +24,7 @@
 - Cloud Main:
     - Portainer:
         href: https://cloud-main.bun-delta.ts.net:9443
+        ping: https://cloud-main.bun-delta.ts.net:9443
 - Others:
     - Lube Logger:
         href: http://nix-fish.bun-delta.ts.net:8080
