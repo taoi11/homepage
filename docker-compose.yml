@@ -8,3 +8,4 @@ services:
       - 100.124.155.97:81:3000
     volumes:
       - ./config:/app/config
+    restart: always
