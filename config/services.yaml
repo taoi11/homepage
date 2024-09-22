@@ -20,6 +20,7 @@
         ping: https://unraid.bun-delta.ts.net:8989
     - BitMagnet:
         href: http://nix-fish.bun-delta.ts.net:3333
+        ping: http://nix-fish.bun-delta.ts.net:3333
 - Cloud Main:
     - Portainer:
         href: https://cloud-main.bun-delta.ts.net:9443
