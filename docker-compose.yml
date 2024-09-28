@@ -7,5 +7,12 @@ services:
     ports:
       - 100.124.155.97:81:3000
     volumes:
-      - ./config:/app/config
+      - config:/app/config
     restart: always
+volumes:
+  config:
+    driver: local
+    driver_opts:
+      type: none
+      device: ./config
+      o: bind
