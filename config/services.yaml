@@ -19,16 +19,22 @@
         href: http://unraid.bun-delta.ts.net:8989
         ping: http://unraid.bun-delta.ts.net:8989
     - BitMagnet:
-        href: http://cloud-main.bun-delta.ts.net:3333
-        ping: http://cloud-main.bun-delta.ts.net:3333
-- Cloud Main:
+        href: http://hetzner-main.bun-delta.ts.net:3333
+        ping: http://hetzner-main.bun-delta.ts.net:3333
+- Hetzner Main:
     - Portainer:
-        href: https://cloud-main.bun-delta.ts.net:9443
-        ping: https://cloud-main.bun-delta.ts.net:9443
-- Others:
+        href: https://hetzner-main.bun-delta.ts.net:9443
+        ping: https://hetzner-main.bun-delta.ts.net:9443
+    - Baikal:
+        href: http://hetzner-main.bun-delta.ts.net:82
+        ping: http://hetzner-main.bun-delta.ts.net:82
     - Lube Logger:
-        href: http://nix-fish.bun-delta.ts.net:8080
+        href: http://hetzner-main.bun-delta.ts.net:8080
+        ping: http://hetzner-main.bun-delta.ts.net:8080
+- Others:
     - Open Web UI:
         href: http://unraid.bun-delta.ts.net:8081
+        ping: http://chat.luffy.casa
     - Immich:
         href: http://unraid.bun-delta.ts.net:2283
+        ping: http://unraid.bun-delta.ts.net:2283
