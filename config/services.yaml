@@ -8,8 +8,9 @@
             url: http://unraid.bun-delta.ts.net:8096
             key: $JELLYFIN_API_KEY
             fields: [ "movies", "series" ]
-            enableNowPlaying: true
-            enableUser: true
+            enableBlocks: true
+            # enableNowPlaying: true
+            # enableUser: true
     - Jellyserr:
         href: http://unraid.bun-delta.ts.net:5055
         ping: http://unraid.bun-delta.ts.net:5055
