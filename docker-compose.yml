@@ -8,6 +8,8 @@ services:
       - 100.117.63.60:81:3000
     volumes:
       - config:/app/config
+    env_file:
+      - .env
     labels:
       - "com.centurylinklabs.watchtower.scope=global"
     restart: always
