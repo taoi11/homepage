@@ -5,7 +5,7 @@
         # ping: http://unraid.bun-delta.ts.net:8096/health
         widget:
             type: jellyfin
-            url: http://unraid.bun-delta.ts.net:8096
+            url: https://media.luffy.casa
             key: $JELLYFIN_API_KEY
             fields: [ "movies", "series" ]
             enableBlocks: true
