@@ -6,7 +6,7 @@
         widget:
             type: jellyfin
             url: https://media.luffy.casa
-            key: $JELLYFIN_API_KEY
+            key: ${JELLYFIN_API_KEY}
             fields: [ "movies", "series" ]
             enableBlocks: true
             # enableNowPlaying: true
