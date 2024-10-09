@@ -66,6 +66,7 @@
         showStats: true
 - Cloud:
     - NextDNS:
-        type: nextdns
-        profile: ${NEXT_DNS_PROFILE}
-        key: ${NEXT_DNS_KEY}
+        widget:
+            type: nextdns
+            profile: ${NEXT_DNS_PROFILE}
+            key: ${NEXT_DNS_KEY}
