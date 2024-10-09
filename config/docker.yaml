@@ -1,2 +1,6 @@
 Hetzner-Main:
   socket: /var/run/docker.sock
+Docker-GPU:
+  host: docker-gpu.bun-delta.ts.net
+  port: 2375
+  
