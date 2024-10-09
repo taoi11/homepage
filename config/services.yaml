@@ -49,6 +49,9 @@
             type: lubelogger
             url: http://hetzner-main.bun-delta.ts.net:8080
             vehicleID: 1
+        server: Hetzner-Main
+        container: lubelogger
+        showStats: true
 - Others:
     - Open Web UI:
         href: http://unraid.bun-delta.ts.net:8081
