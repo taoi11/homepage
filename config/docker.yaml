@@ -1,0 +1,2 @@
+Hetzner-Main:
+  socket: /var/run/docker.sock
