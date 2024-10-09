@@ -39,10 +39,14 @@
         showStats: true
     - Baikal:
         href: http://hetzner-main.bun-delta.ts.net:82
-        ping: http://hetzner-main.bun-delta.ts.net:82
+        server: Hetzner-Main
+        container: baikal
+        showStats: true
     - Lube Logger:
         href: http://hetzner-main.bun-delta.ts.net:8080
-        ping: http://hetzner-main.bun-delta.ts.net:8080
+        server: Hetzner-Main
+        container: lubelogger
+        showStats: true
         widget:
             type: lubelogger
             url: http://hetzner-main.bun-delta.ts.net:8080
