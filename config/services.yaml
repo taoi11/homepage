@@ -32,7 +32,8 @@
 - Hetzner Main:
     - Portainer:
         href: https://hetzner-main.bun-delta.ts.net:9443
-        ping: https://hetzner-main.bun-delta.ts.net:9443
+        server: Hetzner-Main
+        container: portainer
     - Baikal:
         href: http://hetzner-main.bun-delta.ts.net:82
         ping: http://hetzner-main.bun-delta.ts.net:82
