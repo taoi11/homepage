@@ -28,7 +28,9 @@
         ping: http://unraid.bun-delta.ts.net:8989
     - BitMagnet:
         href: http://hetzner-main.bun-delta.ts.net:3333
-        ping: http://hetzner-main.bun-delta.ts.net:3333
+        server: Hetzner-Main
+        container: bitmagnet
+        showStats: true
 - Hetzner Main:
     - Portainer:
         href: https://hetzner-main.bun-delta.ts.net:9443
