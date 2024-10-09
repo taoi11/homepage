@@ -3,12 +3,12 @@
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
         # ping: http://unraid.bun-delta.ts.net:8096/health
-        widget:
-            type: jellyfin
-            url: http://unraid.bun-delta.ts.net:8096
-            key: ${JELLYFIN_API_KEY}
-            fields: [ "movies", "series" ]
-            enableBlocks: true
+        # widget:
+        #     type: jellyfin
+        #     url: http://unraid.bun-delta.ts.net:8096
+        #     key: ${JELLYFIN_API_KEY}
+        #     fields: [ "movies", "series" ]
+        #     enableBlocks: true
             # enableNowPlaying: true
             # enableUser: true
     - Jellyserr:
@@ -39,6 +39,12 @@
     - Lube Logger:
         href: http://hetzner-main.bun-delta.ts.net:8080
         ping: http://hetzner-main.bun-delta.ts.net:8080
+        widget:
+            type: lube-logger
+            url: http://hetzner-main.bun-delta.ts.net:8080
+            username: ${LUBE_LOGGER_USERNAME}
+            password: ${LUBE_LOGGER_PASSWORD}
+            vehicleID: 1
 - Others:
     - Open Web UI:
         href: http://unraid.bun-delta.ts.net:8081
