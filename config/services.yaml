@@ -44,11 +44,10 @@
         showStats: true
     - Lube Logger:
         href: http://hetzner-main.bun-delta.ts.net:8080
-        ping: http://hetzner-main.bun-delta.ts.net:8080
         widget:
             type: lubelogger
             url: http://hetzner-main.bun-delta.ts.net:8080
-            # vehicleID: 1
+            # vehicleID: 1 # Optional for single vehicle mode
         server: Hetzner-Main
         container: lubelogger
         showStats: true
@@ -63,7 +62,7 @@
         href: http://docker-gpu.bun-delta.ts.net:11434
         server: Docker-GPU
         container: ollama
-        showStats: true
+        showStats: true 
 # - Cloud:
 #     - NextDNS:
 #         widget:
