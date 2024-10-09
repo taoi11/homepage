@@ -3,14 +3,14 @@
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
         ping: http://unraid.bun-delta.ts.net:8096/health
-        widget:
-            type: jellyfin
-            url: http://unraid.bun-delta.ts.net:8096
-            key: ${JELLYFIN_API_KEY}
-            fields: [ "movies", "series" ]
-            enableBlocks: true
-            enableNowPlaying: true
-            enableUser: true
+        # widget:
+        #     type: jellyfin
+        #     url: http://unraid.bun-delta.ts.net:8096
+        #     key: ${JELLYFIN_API_KEY}
+        #     fields: [ "movies", "series" ]
+        #     enableBlocks: true
+        #     enableNowPlaying: true
+        #     enableUser: true
     - Jellyserr:
         href: http://unraid.bun-delta.ts.net:5055
         ping: http://unraid.bun-delta.ts.net:5055
@@ -64,9 +64,9 @@
         server: Docker-GPU
         container: ollama
         showStats: true
-- Cloud:
-    - NextDNS:
-        widget:
-            type: nextdns
-            profile: $NEXT_DNS_PROFILE
-            key: $NEXT_DNS_KEY
+# - Cloud:
+#     - NextDNS:
+#         widget:
+#             type: nextdns
+#             profile: $NEXT_DNS_PROFILE
+#             key: $NEXT_DNS_KEY
