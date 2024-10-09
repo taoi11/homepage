@@ -42,8 +42,8 @@
         widget:
             type: lubelogger
             url: http://hetzner-main.bun-delta.ts.net:8080
-            username: ${LUBE_LOGGER_USERNAME}
-            password: ${LUBE_LOGGER_PASSWORD}
+            # username: ${LUBE_LOGGER_USERNAME}
+            # password: ${LUBE_LOGGER_PASSWORD}
             vehicleID: 1
 - Others:
     - Open Web UI:
