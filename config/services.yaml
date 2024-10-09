@@ -40,7 +40,7 @@
         href: http://hetzner-main.bun-delta.ts.net:8080
         ping: http://hetzner-main.bun-delta.ts.net:8080
         widget:
-            type: lube-logger
+            type: lubelogger
             url: http://hetzner-main.bun-delta.ts.net:8080
             username: ${LUBE_LOGGER_USERNAME}
             password: ${LUBE_LOGGER_PASSWORD}
