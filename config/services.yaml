@@ -48,7 +48,7 @@
         widget:
             type: lubelogger
             url: http://hetzner-main.bun-delta.ts.net:8080
-            vehicleID: 1
+            # vehicleID: 1
         server: Hetzner-Main
         container: lubelogger
         showStats: true
