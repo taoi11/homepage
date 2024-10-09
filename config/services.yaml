@@ -6,7 +6,7 @@
         widget:
             type: jellyfin
             url: http://unraid.bun-delta.ts.net:8096
-            key: $JELLYFIN_API_KEY
+            key: ${JELLYFIN_API_KEY}
             fields: [ "movies", "series" ]
             enableBlocks: true
             enableNowPlaying: true
