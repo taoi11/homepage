@@ -1,14 +1,14 @@
 ---
 - Infrastructure:
-  - Tailscale:
-    - abbr: TS
-      href: https://login.tailscale.com/admin/machines
-  - Proxmox:
-    - abbr: PVE
-      href: https://pve-1.bun-delta.ts.net:8006
-  - unraid:
-    - abbr: UNR
-      href: http://unraid.bun-delta.ts.net
-  - iLO:
-    - abbr: iLO
-      href: https://10.1.1.11/
+    - Tailscale:
+        - abbr: TS
+            href: https://login.tailscale.com/admin/machines
+    - Proxmox:
+        - abbr: PVE
+            href: https://pve-1.bun-delta.ts.net:8006
+    - unraid:
+        - abbr: UNR
+            href: http://unraid.bun-delta.ts.net
+    - iLO:
+        - abbr: iLO
+            href: https://10.1.1.11/
