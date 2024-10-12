@@ -13,10 +13,10 @@
         #     enableBlocks: true
         #     enableNowPlaying: true
         #     enableUser: true
-    - Jellyserr:
+    - Jellyseerr:
         href: http://unraid.bun-delta.ts.net:5055
         server: Unraid
-        container: jellyserr
+        container: jellyseerr
         showStats: false
     - Tansmission:
         href: http://unraid.bun-delta.ts.net:9091
