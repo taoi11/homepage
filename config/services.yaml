@@ -2,7 +2,9 @@
 - Media:
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
-        # ping: http://unraid.bun-delta.ts.net:8096/health
+        server: Unraid
+        container: jellyfin
+        showStats: true
         # widget:
         #     type: jellyfin
         #     url: http://unraid.bun-delta.ts.net:8096
@@ -13,19 +15,34 @@
         #     enableUser: true
     - Jellyserr:
         href: http://unraid.bun-delta.ts.net:5055
-        # ping: http://unraid.bun-delta.ts.net:5055
+        server: Unraid
+        container: jellyserr
+        showStats: false
     - Tansmission:
         href: http://unraid.bun-delta.ts.net:9091
-        # ping: http://unraid.bun-delta.ts.net:9091
+        server: Unraid
+        container: transmission
+        showStats: false
     - Prowlarr:
         href: http://unraid.bun-delta.ts.net:9696
-        # ping: http://unraid.bun-delta.ts.net:9696
+        server: Unraid
+        container: prowlarr
+        showStats: false
     - Radarr:
         href: http://unraid.bun-delta.ts.net:7878
-        # ping: http://unraid.bun-delta.ts.net:7878
+        server: Unraid
+        container: radarr
+        showStats: false
     - Sonarr:
         href: http://unraid.bun-delta.ts.net:8989
-        # ping: http://unraid.bun-delta.ts.net:8989
+        server: Unraid
+        container: sonarr
+        showStats: false
+    - Threadfin:
+        href: http://unraid.bun-delta.ts.net:34400
+        server: Unraid
+        container: threadfin
+        showStats: false
     - BitMagnet:
         href: http://hetzner-main.bun-delta.ts.net:3333
         server: Hetzner-Main

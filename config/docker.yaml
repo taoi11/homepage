@@ -3,4 +3,6 @@ Hetzner-Main:
 Docker-GPU:
   host: docker-gpu.bun-delta.ts.net
   port: 2375
-  
+Unraid:
+  host: unraid.bun-delta.ts.net
+  port: 2375
