@@ -2,7 +2,7 @@
 - Media:
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
-        ping: http://unraid.bun-delta.ts.net:8096/health
+        # ping: http://unraid.bun-delta.ts.net:8096/health
         # widget:
         #     type: jellyfin
         #     url: http://unraid.bun-delta.ts.net:8096
@@ -13,19 +13,19 @@
         #     enableUser: true
     - Jellyserr:
         href: http://unraid.bun-delta.ts.net:5055
-        ping: http://unraid.bun-delta.ts.net:5055
+        # ping: http://unraid.bun-delta.ts.net:5055
     - Tansmission:
         href: http://unraid.bun-delta.ts.net:9091
-        ping: http://unraid.bun-delta.ts.net:9091
+        # ping: http://unraid.bun-delta.ts.net:9091
     - Prowlarr:
         href: http://unraid.bun-delta.ts.net:9696
-        ping: http://unraid.bun-delta.ts.net:9696
+        # ping: http://unraid.bun-delta.ts.net:9696
     - Radarr:
         href: http://unraid.bun-delta.ts.net:7878
-        ping: http://unraid.bun-delta.ts.net:7878
+        # ping: http://unraid.bun-delta.ts.net:7878
     - Sonarr:
         href: http://unraid.bun-delta.ts.net:8989
-        ping: http://unraid.bun-delta.ts.net:8989
+        # ping: http://unraid.bun-delta.ts.net:8989
     - BitMagnet:
         href: http://hetzner-main.bun-delta.ts.net:3333
         server: Hetzner-Main
@@ -41,7 +41,7 @@
         href: http://hetzner-main.bun-delta.ts.net:82
         server: Hetzner-Main
         container: baikal
-        showStats: true
+        showStats: false
     - Lube Logger:
         href: http://hetzner-main.bun-delta.ts.net:8080
         widget:
@@ -50,14 +50,14 @@
             # vehicleID: 1 # Optional for single vehicle mode
         server: Hetzner-Main
         container: lubelogger
-        showStats: true
+        showStats: false
 - Others:
     - Open Web UI:
         href: http://unraid.bun-delta.ts.net:8081
-        ping: http://unraid.bun-delta.ts.net:8081
+        # ping: http://unraid.bun-delta.ts.net:8081
     - Immich:
         href: http://unraid.bun-delta.ts.net:2283
-        ping: http://unraid.bun-delta.ts.net:2283
+        # ping: http://unraid.bun-delta.ts.net:2283
     - Ollama:
         href: http://docker-gpu.bun-delta.ts.net:11434
         server: Docker-GPU
