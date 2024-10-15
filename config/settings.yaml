@@ -4,4 +4,4 @@ fiveColumns: true
 layout:
     Media:
         style: row
-        columns: 5
+        columns: 4
