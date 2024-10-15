@@ -9,7 +9,7 @@
             type: jellyfin
             url: http://unraid.bun-delta.ts.net:8096
             key: {{HOMEPAGE_VAR_JELLYFIN_API_KEY}}
-            # fields: [ "movies", "series" ]
+            fields: [ ]
             enableBlocks: true
             enableNowPlaying: true
             enableUser: true

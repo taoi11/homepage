@@ -1,6 +1,7 @@
 headerStyle: boxed
 useEqualHeights: true
+fiveColumns: true
 layout:
     Media:
         style: row
-        columns: 3
+        columns: 5
