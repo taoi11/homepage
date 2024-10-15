@@ -76,7 +76,7 @@
         server: Hetzner-Main
         container: bitmagnet
         showStats: true
-- Hetzner Main:
+- Cloud:
     - Portainer:
         href: https://hetzner-main.bun-delta.ts.net:9443
         server: Hetzner-Main
@@ -96,21 +96,21 @@
         server: Hetzner-Main
         container: lubelogger
         showStats: false
-- Others:
-    - Open Web UI:
-        href: http://unraid.bun-delta.ts.net:8081
-        # ping: http://unraid.bun-delta.ts.net:8081
-    - Immich:
-        href: http://unraid.bun-delta.ts.net:2283
-        # ping: http://unraid.bun-delta.ts.net:2283
-    - Ollama:
-        href: http://docker-gpu.bun-delta.ts.net:11434
-        server: Docker-GPU
-        container: ollama
-        showStats: true 
-- Cloud:
     - NextDNS:
         widget:
             type: nextdns
             profile: {{HOMEPAGE_VAR_NEXT_DNS_PROFILE}}
             key: {{HOMEPAGE_VAR_NEXT_DNS_KEY}}
+- Others:
+    - Open Web UI:
+        href: http://unraid.bun-delta.ts.net:8081
+        server: Unraid
+        container: open-webui
+        showStats: false
+    - Immich:
+        href: http://unraid.bun-delta.ts.net:2283
+    - Ollama:
+        href: http://docker-gpu.bun-delta.ts.net:11434
+        server: Docker-GPU
+        container: ollama
+        showStats: true 
