@@ -1,4 +1,5 @@
 headerStyle: boxed
+useEqualHeights: true
 layout:
     Media:
         style: row
