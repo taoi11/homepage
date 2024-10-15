@@ -1,5 +1,5 @@
 headerStyle: boxed
 layout:
-    Cloud:
+    Media:
         style: row
-        columns: 4
+        columns: 3
