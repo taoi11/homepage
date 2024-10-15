@@ -1,1 +1,5 @@
 headerStyle: boxed
+layout:
+    Cloud:
+        style: row
+        columns: 4
