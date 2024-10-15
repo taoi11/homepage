@@ -53,7 +53,7 @@
             type: radarr
             url: http://unraid.bun-delta.ts.net:7878
             key: {{HOMEPAGE_VAR_RADARR_API_KEY}}
-            enableQueue: true
+            # enableQueue: true
             fields: ["wanted", "missing", "queued", "movies"]
     - Sonarr:
         href: http://unraid.bun-delta.ts.net:8989
@@ -64,7 +64,7 @@
             type: sonarr
             url: http://unraid.bun-delta.ts.net:8989
             key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
-            enableQueue: true
+            # enableQueue: true
             fields: ["wanted", "queued", "series"]
     - Threadfin:
         href: http://unraid.bun-delta.ts.net:34400
