@@ -5,14 +5,14 @@
         server: Unraid
         container: jellyfin
         showStats: true
-        widget:
-            type: jellyfin
-            url: http://unraid.bun-delta.ts.net:8096
-            key: {{HOMEPAGE_VAR_JELLYFIN_API_KEY}}
-            fields: [ "movies", "series" ]
-            enableBlocks: true
-            enableNowPlaying: true
-            enableUser: true
+        # widget:
+        #     type: jellyfin
+        #     url: http://unraid.bun-delta.ts.net:8096
+        #     key: {{HOMEPAGE_VAR_JELLYFIN_API_KEY}}
+        #     fields: [ "movies", "series" ]
+        #     enableBlocks: true
+        #     enableNowPlaying: true
+        #     enableUser: true
     - Jellyseerr:
         href: http://unraid.bun-delta.ts.net:5055
         server: Unraid
@@ -80,9 +80,9 @@
         server: Docker-GPU
         container: ollama
         showStats: true 
-- Cloud:
-    - NextDNS:
-        widget:
-            type: nextdns
-            profile: {{HOMEPAGE_VAR_NEXT_DNS_PROFILE}}
-            key: {{HOMEPAGE_VAR_NEXT_DNS_KEY}}
+# - Cloud:
+#     - NextDNS:
+#         widget:
+#             type: nextdns
+#             profile: {{HOMEPAGE_VAR_NEXT_DNS_PROFILE}}
+#             key: {{HOMEPAGE_VAR_NEXT_DNS_KEY}}
