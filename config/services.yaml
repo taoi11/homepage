@@ -28,21 +28,44 @@
         server: Unraid
         container: transmission
         showStats: false
+        widget:
+            type: transmission
+            url: http://unraid.bun-delta.ts.net:9091
+            username: {{HOMEPAGE_VAR_TRANSMISSION_USERNAME}}
+            password: {{HOMEPAGE_VAR_TRANSMISSION_PASSWORD}}
+            fields: ["leech", "download", "seed", "upload"]
     - Prowlarr:
         href: http://unraid.bun-delta.ts.net:9696
         server: Unraid
         container: prowlarr
         showStats: false
+        widget:
+            type: prowlarr
+            url: http://unraid.bun-delta.ts.net:9696
+            key: {{HOMEPAGE_VAR_PROWLARR_API_KEY}}
+            fields: ["numberOfGrabs", "numberOfQueries", "numberOfFailGrabs", "numberOfFailQueries"]
     - Radarr:
         href: http://unraid.bun-delta.ts.net:7878
         server: Unraid
         container: radarr
         showStats: false
+        widget:
+            type: radarr
+            url: http://unraid.bun-delta.ts.net:7878
+            key: {{HOMEPAGE_VAR_RADARR_API_KEY}}
+            enableQueue: true
+            fields: ["wanted", "missing", "queued", "movies"]
     - Sonarr:
         href: http://unraid.bun-delta.ts.net:8989
         server: Unraid
         container: sonarr
         showStats: false
+        widget:
+            type: sonarr
+            url: http://unraid.bun-delta.ts.net:8989
+            key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
+            enableQueue: true
+            fields: ["wanted", "queued", "series"]
     - Threadfin:
         href: http://unraid.bun-delta.ts.net:34400
         server: Unraid
