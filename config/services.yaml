@@ -10,9 +10,9 @@
             url: http://unraid.bun-delta.ts.net:8096
             key: {{HOMEPAGE_VAR_JELLYFIN_API_KEY}}
             fields: [ "movies", "series" ]
-            # enableBlocks: true
-            # enableNowPlaying: true
-            # enableUser: true
+            enableBlocks: true
+            enableNowPlaying: true
+            enableUser: true
     - Jellyseerr:
         href: http://unraid.bun-delta.ts.net:5055
         server: Unraid
