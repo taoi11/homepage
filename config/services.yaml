@@ -73,7 +73,7 @@
         showStats: false
     - BitMagnet:
         href: http://oracle-db.bun-delta.ts.net:3333
-        server: Hetzner-Main
+        server: Oracle-DB
         container: bitmagnet
         showStats: true
 - Cloud:
