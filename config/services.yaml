@@ -72,7 +72,7 @@
         container: threadfin
         showStats: false
     - BitMagnet:
-        href: http://hetzner-main.bun-delta.ts.net:3333
+        href: http://oracle-db.bun-delta.ts.net:3333
         server: Hetzner-Main
         container: bitmagnet
         showStats: true
