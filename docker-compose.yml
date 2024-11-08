@@ -5,7 +5,7 @@ services:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     ports:
-      - 100.117.63.60:81:3000
+      - 100.71.85.25:81:3000
     volumes:
       - config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock
