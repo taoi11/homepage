@@ -78,22 +78,22 @@
         showStats: true
 - Cloud:
     - Portainer:
-        href: https://hetzner-main.bun-delta.ts.net:9443
-        server: Hetzner-Main
+        href: https://cloud-main.bun-delta.ts.net:9443
+        server: Cloud-Main
         container: portainer
         showStats: true
     - Baikal:
-        href: http://hetzner-main.bun-delta.ts.net:82
-        server: Hetzner-Main
+        href: http://cloud-main.bun-delta.ts.net:82
+        server: Cloud-Main
         container: baikal
         showStats: false
     - Lube Logger:
-        href: http://hetzner-main.bun-delta.ts.net:8080
+        href: http://cloud-main.bun-delta.ts.net:8080
         widget:
             type: lubelogger
-            url: http://hetzner-main.bun-delta.ts.net:8080
+            url: http://cloud-main.bun-delta.ts.net:8080
             # vehicleID: 1 # Optional for single vehicle mode
-        server: Hetzner-Main
+        server: Cloud-Main
         container: lubelogger
         showStats: false
     - NextDNS:

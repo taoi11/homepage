@@ -1,4 +1,4 @@
-Hetzner-Main:
+Cloud-Main:
     socket: /var/run/docker.sock
 Docker-GPU:
     host: docker-gpu.bun-delta.ts.net
