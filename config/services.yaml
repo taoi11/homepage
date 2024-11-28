@@ -107,8 +107,11 @@
         server: Unraid
         container: open-webui
         showStats: false
-    - Immich:
-        href: http://unraid.bun-delta.ts.net:2283
+    - Perplexideez:
+        href: http://docker-gpu.bun-delta.ts.net:3000
+        server: Docker-GPU
+        container: perplexideez
+        showStats: false
     - Ollama:
         href: http://docker-gpu.bun-delta.ts.net:11434
         server: Docker-GPU
