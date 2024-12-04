@@ -7,17 +7,10 @@ services:
     ports:
       - 100.99.136.75:81:3000
     volumes:
-      - config:/app/config
+      - ./config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .env
     labels:
       - "com.centurylinklabs.watchtower.scope=global"
     restart: always
-volumes:
-  config:
-    driver: local
-    driver_opts:
-      type: none
-      device: ./config
-      o: bind
