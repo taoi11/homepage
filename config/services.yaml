@@ -72,8 +72,8 @@
         container: threadfin
         showStats: false
     - BitMagnet:
-        href: http://oracle-arm.bun-delta.ts.net:3333
-        server: Oracle-Arm
+        href: http://cloud-main.bun-delta.ts.net:3333
+        server: Cloud-Main
         container: bitmagnet
         showStats: true
 - Cloud:
