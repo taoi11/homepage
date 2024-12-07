@@ -82,6 +82,11 @@
         server: Cloud-Main
         container: portainer
         showStats: true
+    - Grafana:
+        href: https://cloud-main.bun-delta.ts.net:3000
+        server: Cloud-Main
+        container: grafana
+        showStats: true
     - Baikal:
         href: http://cloud-main.bun-delta.ts.net:82
         server: Cloud-Main
