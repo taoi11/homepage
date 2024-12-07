@@ -96,11 +96,11 @@
         server: Cloud-Main
         container: lubelogger
         showStats: false
-    - Storj_Node:
+    - Storj Node:
         href: http://cloud-main.bun-delta.ts.net:14002
         server: Cloud-Main
         container: storagenode
-        showStats: false
+        showStats: true
 - Home:
     - Open Web UI:
         href: http://unraid.bun-delta.ts.net:8081
