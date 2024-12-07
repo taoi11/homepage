@@ -96,12 +96,12 @@
         server: Cloud-Main
         container: lubelogger
         showStats: false
-    - NextDNS:
-        widget:
-            type: nextdns
-            profile: {{HOMEPAGE_VAR_NEXT_DNS_PROFILE}}
-            key: {{HOMEPAGE_VAR_NEXT_DNS_KEY}}
-- Others:
+    - Storj_Node:
+        href: http://cloud-main.bun-delta.ts.net:14002
+        server: Cloud-Main
+        container: storagenode
+        showStats: false
+- Home:
     - Open Web UI:
         href: http://unraid.bun-delta.ts.net:8081
         server: Unraid
@@ -116,4 +116,10 @@
         href: http://docker-gpu.bun-delta.ts.net:11434
         server: Docker-GPU
         container: ollama
-        showStats: true 
+        showStats: true
+- Others:
+    - NextDNS:
+        widget:
+            type: nextdns
+            profile: {{HOMEPAGE_VAR_NEXT_DNS_PROFILE}}
+            key: {{HOMEPAGE_VAR_NEXT_DNS_KEY}}
