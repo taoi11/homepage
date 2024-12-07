@@ -83,7 +83,7 @@
         container: portainer
         showStats: true
     - Grafana:
-        href: https://cloud-main.bun-delta.ts.net:3000
+        href: http://cloud-main.bun-delta.ts.net:3000
         server: Cloud-Main
         container: grafana
         showStats: true
