@@ -128,3 +128,8 @@
             type: nextdns
             profile: {{HOMEPAGE_VAR_NEXT_DNS_PROFILE}}
             key: {{HOMEPAGE_VAR_NEXT_DNS_KEY}}
+    - Prometheus:
+        href: http://cloud-main.bun-delta.ts.net:9090
+        server: Cloud-Main
+        container: prometheus
+        showStats: true
