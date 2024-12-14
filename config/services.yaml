@@ -106,12 +106,12 @@
         server: Cloud-Main
         container: storagenode
         showStats: true
-- Home:
     - Open Web UI:
-        href: http://unraid.bun-delta.ts.net:8081
-        server: Unraid
+        href: http://cloud-main.bun-delta.ts.net:8081
+        server: Cloud-Main
         container: open-webui
         showStats: false
+- Home:
     - Perplexideez:
         href: http://docker-gpu.bun-delta.ts.net:3000
         server: Docker-GPU
