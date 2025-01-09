@@ -76,7 +76,7 @@
         server: Cloud-Main
         container: bitmagnet
         showStats: true
-- Cloud:
+- Cloud-Main:
     - Portainer:
         href: https://cloud-main.bun-delta.ts.net:9443
         server: Cloud-Main
@@ -133,3 +133,8 @@
         server: Cloud-Main
         container: prometheus
         showStats: true
+    - Storj Node (Polar-1):
+        href: http://polar-1.bun-delta.ts.net:14002
+        # server: Polar-1
+        # container: storagenode
+        # showStats: true
