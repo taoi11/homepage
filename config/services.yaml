@@ -76,17 +76,39 @@
         server: Cloud-Main
         container: bitmagnet
         showStats: true
-- Cloud-Main:
-    - Portainer:
-        href: https://cloud-main.bun-delta.ts.net:9443
+- AI + Automation + Monitoring:
+    - Open Web UI:
+        href: http://cloud-main.bun-delta.ts.net:8081
         server: Cloud-Main
-        container: portainer
+        container: open-webui
+        showStats: true
+    - Anything LLM:
+        href: http://cloud-main.bun-delta.ts.net:3001
+        server: Cloud-Main
+        container: anythingllm
+        showStats: true
+    - N8N:
+        href: https://n8n.luffy.casa/
+        server: Cloud-Main
+        container: n8n
+        showStats: true
+    - Flowise:
+        href: http://cloud-main.bun-delta.ts.net:3020/
+        server: Cloud-Main
+        container: flowise
         showStats: true
     - Grafana:
         href: http://cloud-main.bun-delta.ts.net:3000
         server: Cloud-Main
         container: grafana
         showStats: true
+    - Prometheus:
+        href: http://cloud-main.bun-delta.ts.net:9090
+        server: Cloud-Main
+        container: prometheus
+        showStats: true
+
+- Cloud-Main:
     - Baikal:
         href: http://cloud-main.bun-delta.ts.net:82
         server: Cloud-Main
@@ -106,21 +128,17 @@
         server: Cloud-Main
         container: storagenode
         showStats: true
-    - Open Web UI:
-        href: http://cloud-main.bun-delta.ts.net:8081
-        server: Cloud-Main
-        container: open-webui
-        showStats: false
 - Home:
-    - Perplexideez:
-        href: http://docker-gpu.bun-delta.ts.net:3000
-        server: Docker-GPU
-        container: perplexideez
-        showStats: false
     - Ollama:
         href: http://docker-gpu.bun-delta.ts.net:11434
         server: Docker-GPU
         container: ollama
+        showStats: true
+- Polar-1:
+    - Storj Node (Polar-1):
+        href: http://polar-1.bun-delta.ts.net:14002
+        server: Polar-1
+        container: storagenode
         showStats: true
 - Others:
     - NextDNS:
@@ -128,13 +146,3 @@
             type: nextdns
             profile: {{HOMEPAGE_VAR_NEXT_DNS_PROFILE}}
             key: {{HOMEPAGE_VAR_NEXT_DNS_KEY}}
-    - Prometheus:
-        href: http://cloud-main.bun-delta.ts.net:9090
-        server: Cloud-Main
-        container: prometheus
-        showStats: true
-    - Storj Node (Polar-1):
-        href: http://polar-1.bun-delta.ts.net:14002
-        # server: Polar-1
-        # container: storagenode
-        # showStats: true
