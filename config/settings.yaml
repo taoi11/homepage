@@ -6,6 +6,9 @@ layout:
     Media:
         style: row
         columns: 4
+    AI + Automation + Monitoring:
+        style: row
+        columns: 4
     Cloud-Main:
         style: row
         columns: 4
