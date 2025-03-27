@@ -1,8 +1,8 @@
 ---
 - Infrastructure:
-    - Portainer:
-        - abbr: PORT
-          href: https://dawn.bun-delta.ts.net:9443
+    - Komodo:
+        - abbr: KOM
+          href: https://cloud-main.bun-delta.ts.net:9120
     - Tailscale:
         - abbr: TS
           href: https://login.tailscale.com/admin/machines

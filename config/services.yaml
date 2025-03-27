@@ -130,7 +130,7 @@
         showStats: true
 - Home:
     - Ollama:
-        href: http://docker-gpu.bun-delta.ts.net:11434
+        href: http://dl380.bun-delta.ts.net:11434
         server: Docker-GPU
         container: ollama
         showStats: true

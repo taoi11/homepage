@@ -1,8 +1,8 @@
 ---
 Cloud-Main:
     socket: /var/run/docker.sock
-Docker-GPU:
-    host: docker-gpu.bun-delta.ts.net
+DL380:
+    host: dl380.bun-delta.ts.net
     port: 2375
 Unraid:
     host: unraid.bun-delta.ts.net
