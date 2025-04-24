@@ -10,3 +10,6 @@ Unraid:
 Polar-1:
     host: polar-1.bun-delta.ts.net
     port: 2375
+Chungus:
+    host: chungus.bun-delta.ts.net
+    port: 2375

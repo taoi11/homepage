@@ -108,10 +108,15 @@
         container: prometheus
         showStats: true
 
-- Cloud-Main:
+- Cloud:
+    - Nginx Proxy Manager:
+        href: http://chungus.bun-delta.ts.net:81
+        server: Chungus
+        container: nginx-proxy-manager
+        showStats: true
     - Baikal:
-        href: http://cloud-main.bun-delta.ts.net:82
-        server: Cloud-Main
+        href: http://chungus.bun-delta.ts.net:82
+        server: Chungus
         container: baikal
         showStats: false
     - Lube Logger:
