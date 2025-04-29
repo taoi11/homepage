@@ -128,22 +128,21 @@
         server: Cloud-Main
         container: lubelogger
         showStats: false
-    - Storj Node:
-        href: http://cloud-main.bun-delta.ts.net:14002
-        server: Cloud-Main
-        container: storagenode
+    - Storj-1:
+        href: http://chungus.bun-delta.ts.net:14001
+        server: Chungus
+        container: storj-1
+        showStats: true
+    - Storj-2:
+        href: http://chungus.bun-delta.ts.net:14002
+        server: Chungus
+        container: storj-2
         showStats: true
 - Home:
     - Ollama:
         href: http://dl380.bun-delta.ts.net:11434
         server: Docker-GPU
         container: ollama
-        showStats: true
-- Polar-1:
-    - Storj Node (Polar-1):
-        href: http://polar-1.bun-delta.ts.net:14002
-        server: Polar-1
-        container: storagenode
         showStats: true
 - Others:
     - NextDNS:
