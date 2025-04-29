@@ -5,12 +5,12 @@ services:
     image: ghcr.io/gethomepage/homepage:latest
     container_name: homepage
     ports:
-      - 100.99.136.75:81:3000
+      - 100.115.143.97:3000
     volumes:
       - ./config:/app/config
       - /var/run/docker.sock:/var/run/docker.sock
     env_file:
       - .env
     labels:
-      - "com.centurylinklabs.watchtower.scope=global"
+      com.centurylinklabs.watchtower.scope: global
     restart: always
