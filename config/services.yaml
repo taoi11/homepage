@@ -139,10 +139,10 @@
         container: storj-2
         showStats: true
 - Home:
-    - Ollama:
+    - Local-AI:
         href: http://dl380.bun-delta.ts.net:8082
         server: DL380
-        container: ollama
+        container: local-ai
         showStats: true
 - Others:
     - NextDNS:
