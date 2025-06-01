@@ -78,7 +78,7 @@
         showStats: true
 - AI + Automation + Monitoring:
     - Open Web UI:
-        href: http://dl380.bun-delta.ts.net:8081
+        href: http://chungus.bun-delta.ts.net:8081
         server: Cloud-Main
         container: open-webui
         showStats: true
