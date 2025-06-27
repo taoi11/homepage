@@ -72,78 +72,73 @@
         container: threadfin
         showStats: false
     - BitMagnet:
-        href: http://cloud-main.bun-delta.ts.net:3333
-        server: Cloud-Main
+        href: http://chimera.bun-delta.ts.net:3333
+        server: Chimera
         container: bitmagnet
         showStats: true
 - AI + Automation + Monitoring:
     - Open Web UI:
-        href: http://chungus.bun-delta.ts.net:8081
-        server: Cloud-Main
+        href: http://chimera.bun-delta.ts.net:8081
+        server: Chimera
         container: open-webui
         showStats: true
-    - Anything LLM:
-        href: http://cloud-main.bun-delta.ts.net:3001
-        server: Cloud-Main
-        container: anythingllm
-        showStats: true
+    # - Anything LLM:
+    #     href: http://cloud-main.bun-delta.ts.net:3001
+    #     server: Cloud-Main
+    #     container: anythingllm
+    #     showStats: true
     - N8N:
         href: https://n8n.luffy.casa/
         server: Cloud-Main
         container: n8n
         showStats: true
-    - Flowise:
-        href: http://cloud-main.bun-delta.ts.net:3020/
-        server: Cloud-Main
-        container: flowise
-        showStats: true
-    - Grafana:
-        href: http://cloud-main.bun-delta.ts.net:3000
-        server: Cloud-Main
-        container: grafana
-        showStats: true
-    - Prometheus:
-        href: http://cloud-main.bun-delta.ts.net:9090
-        server: Cloud-Main
-        container: prometheus
-        showStats: true
+    # - Grafana:
+    #     href: http://cloud-main.bun-delta.ts.net:3000
+    #     server: Cloud-Main
+    #     container: grafana
+    #     showStats: true
+    # - Prometheus:
+    #     href: http://cloud-main.bun-delta.ts.net:9090
+    #     server: Cloud-Main
+    #     container: prometheus
+    #     showStats: true
 
-- Cloud:
-    - Nginx Proxy Manager:
-        href: http://chungus.bun-delta.ts.net:81
-        server: Chungus
-        container: nginx-proxy-manager
-        showStats: true
-    - Baikal:
-        href: http://chungus.bun-delta.ts.net:82
-        server: Chungus
-        container: baikal
-        showStats: false
-    - Lube Logger:
-        href: http://chungus.bun-delta.ts.net:8080
-        widget:
-            type: lubelogger
-            url: http://cloud-main.bun-delta.ts.net:8080
-            # vehicleID: 1 # Optional for single vehicle mode
-        server: Cloud-Main
-        container: lubelogger
-        showStats: false
-    - Storj-1:
-        href: http://chungus.bun-delta.ts.net:14001
-        server: Chungus
-        container: storj-1
-        showStats: true
-    - Storj-2:
-        href: http://chungus.bun-delta.ts.net:14002
-        server: Chungus
-        container: storj-2
-        showStats: true
-- Home:
-    - Local-AI:
-        href: http://dl380.bun-delta.ts.net:8082
-        server: DL380
-        container: local-ai
-        showStats: true
+# - Cloud:
+#     - Nginx Proxy Manager:
+#         href: http://chungus.bun-delta.ts.net:81
+#         server: Chungus
+#         container: nginx-proxy-manager
+#         showStats: true
+#     - Baikal:
+#         href: http://chungus.bun-delta.ts.net:82
+#         server: Chungus
+#         container: baikal
+#         showStats: false
+#     - Lube Logger:
+#         href: http://chungus.bun-delta.ts.net:8080
+#         widget:
+#             type: lubelogger
+#             url: http://cloud-main.bun-delta.ts.net:8080
+#             # vehicleID: 1 # Optional for single vehicle mode
+#         server: Cloud-Main
+#         container: lubelogger
+#         showStats: false
+#     - Storj-1:
+#         href: http://chungus.bun-delta.ts.net:14001
+#         server: Chungus
+#         container: storj-1
+#         showStats: true
+#     - Storj-2:
+#         href: http://chungus.bun-delta.ts.net:14002
+#         server: Chungus
+#         container: storj-2
+#         showStats: true
+# - Home:
+#     - Local-AI:
+#         href: http://dl380.bun-delta.ts.net:8082
+#         server: DL380
+#         container: local-ai
+#         showStats: true
 - Others:
     - NextDNS:
         widget:

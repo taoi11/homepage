@@ -1,9 +1,6 @@
 ---
-Chungus:
+Chimera:
     socket: /var/run/docker.sock
-DL380:
-    host: dl380.bun-delta.ts.net
-    port: 2375
 Unraid:
     host: unraid.bun-delta.ts.net
     port: 2375
