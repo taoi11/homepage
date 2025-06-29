@@ -1,74 +1,74 @@
 ---
 - Media:
     - Jellyfin:
-        href: http://unraid.bun-delta.ts.net:8096
-        server: Unraid
+        href: http://chimera.bun-delta.ts.net:8096
+        server: Chimera
         container: jellyfin
         showStats: true
         widget:
             type: jellyfin
-            url: http://unraid.bun-delta.ts.net:8096
+            url: http://chimera.bun-delta.ts.net:8096
             key: {{HOMEPAGE_VAR_JELLYFIN_API_KEY}}
             fields: [ ]
             enableBlocks: true
             enableNowPlaying: true
             enableUser: true
     - Jellyseerr:
-        href: http://unraid.bun-delta.ts.net:5055
-        server: Unraid
+        href: http://chimera.bun-delta.ts.net:5055
+        server: Chimera
         container: jellyseerr
         showStats: false
         widget:
             type: jellyseerr
-            url: http://unraid.bun-delta.ts.net:5055
+            url: http://chimera.bun-delta.ts.net:5055
             key: {{HOMEPAGE_VAR_JELLYSEERR_API_KEY}}
             fields: ["pending", "approved", "available"]
-    - Tansmission:
-        href: http://unraid.bun-delta.ts.net:9091
-        server: Unraid
+    - Transmission:
+        href: http://chimera.bun-delta.ts.net:9091
+        server: Chimera
         container: transmission
         showStats: false
         widget:
             type: transmission
-            url: http://unraid.bun-delta.ts.net:9091
+            url: http://chimera.bun-delta.ts.net:9091
             username: {{HOMEPAGE_VAR_TRANSMISSION_USERNAME}}
             password: {{HOMEPAGE_VAR_TRANSMISSION_PASSWORD}}
             fields: ["leech", "download", "seed", "upload"]
     - Prowlarr:
-        href: http://unraid.bun-delta.ts.net:9696
-        server: Unraid
+        href: http://chimera.bun-delta.ts.net:9696
+        server: Chimera
         container: prowlarr
         showStats: false
         widget:
             type: prowlarr
-            url: http://unraid.bun-delta.ts.net:9696
+            url: http://chimera.bun-delta.ts.net:9696
             key: {{HOMEPAGE_VAR_PROWLARR_API_KEY}}
             fields: ["numberOfGrabs", "numberOfQueries", "numberOfFailGrabs", "numberOfFailQueries"]
     - Radarr:
-        href: http://unraid.bun-delta.ts.net:7878
-        server: Unraid
+        href: http://chimera.bun-delta.ts.net:7878
+        server: Chimera
         container: radarr
         showStats: false
         widget:
             type: radarr
-            url: http://unraid.bun-delta.ts.net:7878
+            url: http://chimera.bun-delta.ts.net:7878
             key: {{HOMEPAGE_VAR_RADARR_API_KEY}}
             # enableQueue: true
             fields: ["wanted", "missing", "queued", "movies"]
     - Sonarr:
-        href: http://unraid.bun-delta.ts.net:8989
-        server: Unraid
+        href: http://chimera.bun-delta.ts.net:8989
+        server: Chimera
         container: sonarr
         showStats: false
         widget:
             type: sonarr
-            url: http://unraid.bun-delta.ts.net:8989
+            url: http://chimera.bun-delta.ts.net:8989
             key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
             # enableQueue: true
             fields: ["wanted", "queued", "series"]
     - Threadfin:
-        href: http://unraid.bun-delta.ts.net:34400
-        server: Unraid
+        href: http://chimera.bun-delta.ts.net:34400
+        server: Chimera
         container: threadfin
         showStats: false
     - BitMagnet:
@@ -103,7 +103,7 @@
     #     container: prometheus
     #     showStats: true
 
-# - Cloud:
+- Cloud:
 #     - Nginx Proxy Manager:
 #         href: http://chungus.bun-delta.ts.net:81
 #         server: Chungus
@@ -123,11 +123,11 @@
 #         server: Cloud-Main
 #         container: lubelogger
 #         showStats: false
-#     - Storj-1:
-#         href: http://chungus.bun-delta.ts.net:14001
-#         server: Chungus
-#         container: storj-1
-#         showStats: true
+    - Storj:
+        href: http://chungus.bun-delta.ts.net:14001
+        server: Chungus
+        container: storj
+        showStats: true
 #     - Storj-2:
 #         href: http://chungus.bun-delta.ts.net:14002
 #         server: Chungus
