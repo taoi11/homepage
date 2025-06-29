@@ -1,5 +1,6 @@
 ---
 headerStyle: boxed
+theme: dark
 useEqualHeights: true
 fiveColumns: true
 layout:
@@ -7,8 +8,10 @@ layout:
         style: row
         columns: 4
     AI + Automation + Monitoring:
+        initiallyCollapsed: true
         style: row
         columns: 4
     Cloud-Main:
+        initiallyCollapsed: true
         style: row
         columns: 4
