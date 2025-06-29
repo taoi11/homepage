@@ -104,11 +104,11 @@
     #     showStats: true
 
 - Cloud:
-#     - Nginx Proxy Manager:
-#         href: http://chungus.bun-delta.ts.net:81
-#         server: Chungus
-#         container: nginx-proxy-manager
-#         showStats: true
+    - Nginx Proxy Manager:
+        href: http://chimera.bun-delta.ts.net:81
+        server: Chimera
+        container: nginx-proxy-manager
+        showStats: true
 #     - Baikal:
 #         href: http://chungus.bun-delta.ts.net:82
 #         server: Chungus
