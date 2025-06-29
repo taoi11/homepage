@@ -124,8 +124,8 @@
 #         container: lubelogger
 #         showStats: false
     - Storj:
-        href: http://chungus.bun-delta.ts.net:14001
-        server: Chungus
+        href: http://chimera.bun-delta.ts.net:14001
+        server: Chimera
         container: storj
         showStats: true
 #     - Storj-2:
