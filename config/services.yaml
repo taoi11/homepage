@@ -67,7 +67,7 @@
             # enableQueue: true
             fields: ["wanted", "queued", "series"]
     - Threadfin:
-        href: http://chimera.bun-delta.ts.net:34400
+        href: http://chimera.bun-delta.ts.net:34400/web
         server: Chimera
         container: threadfin
         showStats: false
