@@ -82,6 +82,10 @@
         server: Chimera
         container: open-webui
         showStats: true
+    - All-Hands:
+        href: http://gpu-main.bun-delta.ts.net:3000
+        server: GPU-Main
+        showStats: true
 - Home:
     - Ollama:
         href: http://gpu-main.bun-delta.ts.net:11434
