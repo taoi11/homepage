@@ -82,6 +82,12 @@
         server: Chimera
         container: open-webui
         showStats: true
+- Home:
+    - Ollama:
+        href: http://gpu-main.bun-delta.ts.net:11434
+        server: GPU-Main
+        container: ollama
+        showStats: true
     # - Anything LLM:
     #     href: http://cloud-main.bun-delta.ts.net:3001
     #     server: Cloud-Main
@@ -132,12 +138,6 @@
 #         href: http://chungus.bun-delta.ts.net:14002
 #         server: Chungus
 #         container: storj-2
-#         showStats: true
-# - Home:
-#     - Local-AI:
-#         href: http://dl380.bun-delta.ts.net:8082
-#         server: DL380
-#         container: local-ai
 #         showStats: true
 - Others:
     - NextDNS:
