@@ -78,8 +78,8 @@
         showStats: true
 - AI + Automation + Monitoring:
     - Open Web UI:
-        href: http://chimera.bun-delta.ts.net:8081
-        server: Chimera
+        href: http://ionos-1.bun-delta.ts.net:8081
+        server: ionos-1
         container: open-webui
         showStats: true
     - All-Hands:
@@ -115,8 +115,8 @@
 
 - Cloud:
     - Nginx Proxy Manager:
-        href: http://chimera.bun-delta.ts.net:81
-        server: Chimera
+        href: http://ionos-1.bun-delta.ts.net:81
+        server: ionos-1
         container: nginx-proxy-manager
         showStats: true
 #     - Baikal:
