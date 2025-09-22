@@ -3,7 +3,7 @@
 
 ## Project Description
 
-This repository contains the configuration and setup for a Homepage instance, which appears to be a dashboard application for managing and accessing various services and infrastructure components. The project uses Docker for containerization and includes configuration files for services, bookmarks, and settings.
+This repository contains the configuration and setup for a Homepage instance, a dashboard application for managing and accessing various services and infrastructure components. The project uses Docker for containerization and includes configuration files for services, bookmarks, and settings.
 
 ## File Structure Overview
 
