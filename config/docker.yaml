@@ -1,5 +1,5 @@
 ---
-Chimera:
+ionos-1:
     socket: /var/run/docker.sock
 Unraid:
     host: unraid.bun-delta.ts.net

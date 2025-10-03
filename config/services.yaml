@@ -89,7 +89,7 @@
 - Home:
     - LocalAI:
         href: http://dl380.bun-delta.ts.net:8082
-        # server: GPU-Main
+        server: dl380
         # container: localai
         # showStats: true
     # - Anything LLM:
@@ -99,7 +99,7 @@
     #     showStats: true
     - N8N:
         href: https://n8n.luffy.casa/
-        server: Chimera
+        server: ionos-1
         container: n8n
         showStats: true
     # - Grafana:

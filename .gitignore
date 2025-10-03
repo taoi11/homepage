@@ -1,2 +1,4 @@
 *.env*
 !.env.example
+.aider*
+!.aider.conf.yml
