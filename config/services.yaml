@@ -1,79 +1,79 @@
 ---
 - Media:
     - Jellyfin:
-        href: http://chimera.bun-delta.ts.net:8096
-        server: Chimera
+        href: http://unraid.bun-delta.ts.net:8096
+        server: Unraid
         container: jellyfin
         showStats: true
         widget:
             type: jellyfin
-            url: http://chimera.bun-delta.ts.net:8096
+            url: http://unraid.bun-delta.ts.net:8096
             key: {{HOMEPAGE_VAR_JELLYFIN_API_KEY}}
             fields: [ ]
             enableBlocks: true
             enableNowPlaying: true
             enableUser: true
     - Jellyseerr:
-        href: http://chimera.bun-delta.ts.net:5055
-        server: Chimera
+        href: http://unraid.bun-delta.ts.net:5055
+        server: Unraid
         container: jellyseerr
         showStats: false
         widget:
             type: jellyseerr
-            url: http://chimera.bun-delta.ts.net:5055
+            url: http://unraid.bun-delta.ts.net:5055
             key: {{HOMEPAGE_VAR_JELLYSEERR_API_KEY}}
             fields: ["pending", "approved", "available"]
     - Transmission:
-        href: http://chimera.bun-delta.ts.net:9091
-        server: Chimera
+        href: http://unraid.bun-delta.ts.net:9091
+        server: Unraid
         container: transmission
         showStats: false
         widget:
             type: transmission
-            url: http://chimera.bun-delta.ts.net:9091
+            url: http://unraid.bun-delta.ts.net:9091
             username: {{HOMEPAGE_VAR_TRANSMISSION_USERNAME}}
             password: {{HOMEPAGE_VAR_TRANSMISSION_PASSWORD}}
             fields: ["leech", "download", "seed", "upload"]
     - Prowlarr:
-        href: http://chimera.bun-delta.ts.net:9696
-        server: Chimera
+        href: http://unraid.bun-delta.ts.net:9696
+        server: Unraid
         container: prowlarr
         showStats: false
         widget:
             type: prowlarr
-            url: http://chimera.bun-delta.ts.net:9696
+            url: http://unraid.bun-delta.ts.net:9696
             key: {{HOMEPAGE_VAR_PROWLARR_API_KEY}}
             fields: ["numberOfGrabs", "numberOfQueries", "numberOfFailGrabs", "numberOfFailQueries"]
     - Radarr:
-        href: http://chimera.bun-delta.ts.net:7878
-        server: Chimera
+        href: http://unraid.bun-delta.ts.net:7878
+        server: Unraid
         container: radarr
         showStats: false
         widget:
             type: radarr
-            url: http://chimera.bun-delta.ts.net:7878
+            url: http://unraid.bun-delta.ts.net:7878
             key: {{HOMEPAGE_VAR_RADARR_API_KEY}}
             # enableQueue: true
             fields: ["wanted", "missing", "queued", "movies"]
     - Sonarr:
-        href: http://chimera.bun-delta.ts.net:8989
-        server: Chimera
+        href: http://unraid.bun-delta.ts.net:8989
+        server: Unraid
         container: sonarr
         showStats: false
         widget:
             type: sonarr
-            url: http://chimera.bun-delta.ts.net:8989
+            url: http://unraid.bun-delta.ts.net:8989
             key: {{HOMEPAGE_VAR_SONARR_API_KEY}}
             # enableQueue: true
             fields: ["wanted", "queued", "series"]
     - Threadfin:
-        href: http://chimera.bun-delta.ts.net:34400/web
-        server: Chimera
+        href: http://unraid.bun-delta.ts.net:34400/web
+        server: Unraid
         container: threadfin
         showStats: false
     - BitMagnet:
-        href: http://chimera.bun-delta.ts.net:3333
-        server: Chimera
+        href: http://ionos-1.bun-delta.ts.net:3333
+        server: Ionos-1
         container: bitmagnet
         showStats: true
 - AI + Automation + Monitoring:
