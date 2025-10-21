@@ -86,6 +86,16 @@
         href: http://dl380.bun-delta.ts.net:3000
         # server: GPU-Main
         # showStats: true
+    - Grafana:
+        href: http://ionos-1.bun-delta.ts.net:3000
+        server: ionos-1
+        container: grafana
+        showStats: true
+    - Prometheus:
+        href: http://ionos-1.bun-delta.ts.net:9090
+        server: ionos-1
+        container: prometheus
+        showStats: true
 - Home:
     - LocalAI:
         href: http://dl380.bun-delta.ts.net:8082
@@ -102,16 +112,6 @@
         server: ionos-1
         container: n8n
         showStats: true
-    # - Grafana:
-    #     href: http://cloud-main.bun-delta.ts.net:3000
-    #     server: Cloud-Main
-    #     container: grafana
-    #     showStats: true
-    # - Prometheus:
-    #     href: http://cloud-main.bun-delta.ts.net:9090
-    #     server: Cloud-Main
-    #     container: prometheus
-    #     showStats: true
 
 - Cloud:
     - Nginx Proxy Manager:
@@ -133,9 +133,9 @@
 #         server: Cloud-Main
 #         container: lubelogger
 #         showStats: false
-    - Storj:
-        href: http://chimera.bun-delta.ts.net:14001
-        server: Chimera
+    - Storj-Unraid:
+        href: http://unraid.bun-delta.ts.net:14000
+        server: Unraid
         container: storj
         showStats: true
 #     - Storj-2:
