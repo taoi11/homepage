@@ -87,7 +87,7 @@
         # server: GPU-Main
         # showStats: true
     - Grafana:
-        href: http://ionos-1.bun-delta.ts.net:3000
+        href: http://ionos-1.bun-delta.ts.net:3050
         server: ionos-1
         container: grafana
         showStats: true
