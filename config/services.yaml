@@ -107,10 +107,18 @@
     #     server: Cloud-Main
     #     container: anythingllm
     #     showStats: true
-    - N8N:
-        href: https://n8n.luffy.casa/
-        server: ionos-1
-        container: n8n
+    - Wallos:
+        href: http://dl380.bun-delta.ts.net:8282/
+        server: dl380
+        showStats: true
+        widget:
+            type: wallos
+            url: http://dl380.bun-delta.ts.net:8282
+            key: {{HOMEPAGE_VAR_WALLOS_API_KEY}}
+    - Storj-Unraid:
+        href: http://unraid.bun-delta.ts.net:14002
+        server: Unraid
+        container: storj
         showStats: true
 
 - Cloud:
@@ -118,6 +126,11 @@
         href: http://ionos-1.bun-delta.ts.net:81
         server: ionos-1
         container: nginx-proxy-manager
+        showStats: true
+    - N8N:
+        href: https://n8n.luffy.casa/
+        server: ionos-1
+        container: n8n
         showStats: true
 #     - Baikal:
 #         href: http://chungus.bun-delta.ts.net:82
@@ -133,11 +146,6 @@
 #         server: Cloud-Main
 #         container: lubelogger
 #         showStats: false
-    - Storj-Unraid:
-        href: http://unraid.bun-delta.ts.net:14002
-        server: Unraid
-        container: storj
-        showStats: true
 #     - Storj-2:
 #         href: http://chungus.bun-delta.ts.net:14002
 #         server: Chungus
