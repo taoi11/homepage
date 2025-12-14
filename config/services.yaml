@@ -97,6 +97,10 @@
         container: prometheus
         showStats: true
 - Home:
+    - Home Assistant:
+        href: http://homeassistant.bun-delta.ts.net:8123
+        server: Home Assistant
+        showStats: true
     - LocalAI:
         href: http://dl380.bun-delta.ts.net:8082
         server: dl380
