@@ -72,8 +72,8 @@
         container: threadfin
         showStats: false
     - BitMagnet:
-        href: http://ionos-1.bun-delta.ts.net:3333
-        server: Ionos-1
+        href: http://unraid.bun-delta.ts.net:3333
+        server: Unraid
         container: bitmagnet
         showStats: true
 - AI + Automation + Monitoring:
