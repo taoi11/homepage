@@ -76,6 +76,11 @@
         server: Unraid
         container: bitmagnet
         showStats: true
+    - Dispatcharr:
+        href: http://unraid.bun-delta.ts.net:9191/
+        server: Unraid
+        container: dispatcharr
+        showStats: false
 - AI + Automation + Monitoring:
     - Open Web UI:
         href: http://ionos-1.bun-delta.ts.net:8081
