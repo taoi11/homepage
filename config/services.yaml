@@ -2,9 +2,6 @@
 - Media:
     - Jellyfin:
         href: http://unraid.bun-delta.ts.net:8096
-        server: Unraid
-        container: jellyfin
-        showStats: true
         widget:
             type: jellyfin
             url: http://unraid.bun-delta.ts.net:8096
@@ -15,9 +12,6 @@
             enableUser: true
     - Jellyseerr:
         href: http://unraid.bun-delta.ts.net:5055
-        server: Unraid
-        container: jellyseerr
-        showStats: false
         widget:
             type: jellyseerr
             url: http://unraid.bun-delta.ts.net:5055
@@ -25,9 +19,6 @@
             fields: ["pending", "approved", "available"]
     - Transmission:
         href: http://unraid.bun-delta.ts.net:9091
-        server: Unraid
-        container: transmission
-        showStats: false
         widget:
             type: transmission
             url: http://unraid.bun-delta.ts.net:9091
@@ -36,9 +27,6 @@
             fields: ["leech", "download", "seed", "upload"]
     - Prowlarr:
         href: http://unraid.bun-delta.ts.net:9696
-        server: Unraid
-        container: prowlarr
-        showStats: false
         widget:
             type: prowlarr
             url: http://unraid.bun-delta.ts.net:9696
@@ -46,9 +34,6 @@
             fields: ["numberOfGrabs", "numberOfQueries", "numberOfFailGrabs", "numberOfFailQueries"]
     - Radarr:
         href: http://unraid.bun-delta.ts.net:7878
-        server: Unraid
-        container: radarr
-        showStats: false
         widget:
             type: radarr
             url: http://unraid.bun-delta.ts.net:7878
@@ -57,9 +42,6 @@
             fields: ["wanted", "missing", "queued", "movies"]
     - Sonarr:
         href: http://unraid.bun-delta.ts.net:8989
-        server: Unraid
-        container: sonarr
-        showStats: false
         widget:
             type: sonarr
             url: http://unraid.bun-delta.ts.net:8989
@@ -68,19 +50,10 @@
             fields: ["wanted", "queued", "series"]
     - Threadfin:
         href: http://unraid.bun-delta.ts.net:34400/web
-        server: Unraid
-        container: threadfin
-        showStats: false
     - BitMagnet:
         href: http://unraid.bun-delta.ts.net:3333
-        server: Unraid
-        container: bitmagnet
-        showStats: true
     - Dispatcharr:
         href: http://unraid.bun-delta.ts.net:9191/
-        server: Unraid
-        container: dispatcharr
-        showStats: false
 - AI + Automation + Monitoring:
     - Open Web UI:
         href: http://ionos-1.bun-delta.ts.net:8081
@@ -119,16 +92,12 @@
     - Wallos:
         href: http://dl380.bun-delta.ts.net:8282/
         server: dl380
-        showStats: true
         widget:
             type: wallos
             url: http://dl380.bun-delta.ts.net:8282
             key: {{HOMEPAGE_VAR_WALLOS_API_KEY}}
     - Storj-Unraid:
         href: http://unraid.bun-delta.ts.net:14002
-        server: Unraid
-        container: storj
-        showStats: true
 
 - Cloud:
     - Nginx Proxy Manager:

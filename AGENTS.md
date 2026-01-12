@@ -30,6 +30,10 @@ homepage/
 
 Dashboard is deployed on remote host via Tailscale VPN:
 
+- Commit and push the code from local to remote git repo.
+
+- pull the latest changes on the remote host:
+
 ```bash
 ssh luffy@ionos-1.bun-delta.ts.net "cd /home/luffy/docker/homepage && git pull"
 ```
